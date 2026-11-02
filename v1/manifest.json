@@ -1,0 +1,103 @@
+{
+  "blockers" : [
+    {
+      "byteCount" : 8625872,
+      "id" : "ads",
+      "path" : "blockers\/ads-b4d3846a405a0351.json",
+      "ruleCount" : 65083,
+      "sha256" : "b4d3846a405a0351dbaf992f57aac7fda8626de74a737ccb50ab2008f5bc728a",
+      "sourceListIDs" : [
+        "easylist",
+        "adguard-japanese"
+      ],
+      "status" : "fresh"
+    },
+    {
+      "byteCount" : 83,
+      "id" : "ads2",
+      "path" : "blockers\/ads2-175b2518d92eca79.json",
+      "ruleCount" : 1,
+      "sha256" : "175b2518d92eca79ea0a9f309d9d06d281a7f317efd45462254e3528c659efa4",
+      "sourceListIDs" : [
+        "easylist",
+        "adguard-japanese"
+      ],
+      "status" : "fresh"
+    },
+    {
+      "byteCount" : 6159787,
+      "id" : "privacy",
+      "path" : "blockers\/privacy-99bcbc2c6688af39.json",
+      "ruleCount" : 56439,
+      "sha256" : "99bcbc2c6688af39d1d4694ec0966e5d6fb7b8e3500b1b667712328d83a6f834",
+      "sourceListIDs" : [
+        "easyprivacy"
+      ],
+      "status" : "fresh"
+    },
+    {
+      "byteCount" : 1853303,
+      "id" : "annoyances",
+      "path" : "blockers\/annoyances-03380c95707337d0.json",
+      "ruleCount" : 9507,
+      "sha256" : "03380c95707337d02145616025840d500d391ff18b9b19fc856990b9a68e9dfb",
+      "sourceListIDs" : [
+        "easylist-cookie"
+      ],
+      "status" : "fresh"
+    }
+  ],
+  "converterVersion" : "4.3.0",
+  "formatVersion" : 1,
+  "generatedAt" : "2026-11-02T07:16:28Z",
+  "safariVersion" : 18,
+  "sources" : [
+    {
+      "fetchStatus" : "fetched",
+      "fetchedAt" : "2026-11-02T07:16:28Z",
+      "id" : "easylist",
+      "license" : "https:\/\/easylist.to\/pages\/licence.html",
+      "name" : "EasyList",
+      "path" : "sources\/easylist.txt",
+      "sha256" : "f3e005a1a8f805bf1b1a91a5c2bf55d66fbb0b736a7a94d9c621358be9c7aa96",
+      "title" : "EasyList",
+      "url" : "https:\/\/easylist.to\/easylist\/easylist.txt",
+      "version" : "202611020701"
+    },
+    {
+      "fetchStatus" : "fetched",
+      "fetchedAt" : "2026-11-02T07:16:28Z",
+      "id" : "adguard-japanese",
+      "license" : "https:\/\/github.com\/AdguardTeam\/AdguardFilters\/blob\/master\/LICENSE",
+      "name" : "AdGuard Japanese",
+      "path" : "sources\/adguard-japanese.txt",
+      "sha256" : "a4bfd21f52373495379a65c982fa55c85d77336f549951dd39a70dd8591993d3",
+      "title" : "AdGuard Japanese filter",
+      "url" : "https:\/\/filters.adtidy.org\/extension\/safari\/filters\/7.txt",
+      "version" : "2.0.78.3"
+    },
+    {
+      "fetchStatus" : "fetched",
+      "fetchedAt" : "2026-11-02T07:16:28Z",
+      "id" : "easyprivacy",
+      "license" : "https:\/\/easylist.to\/pages\/licence.html",
+      "name" : "EasyPrivacy",
+      "path" : "sources\/easyprivacy.txt",
+      "sha256" : "54c530f3b997f4f8a6be8e02363c50561789af3e5bf462077b71694fb40e535d",
+      "title" : "EasyPrivacy",
+      "url" : "https:\/\/easylist.to\/easylist\/easyprivacy.txt",
+      "version" : "202611020701"
+    },
+    {
+      "fetchStatus" : "fetched",
+      "fetchedAt" : "2026-11-02T07:16:28Z",
+      "id" : "easylist-cookie",
+      "license" : "http:\/\/creativecommons.org\/licenses\/by\/3.0\/",
+      "name" : "EasyList Cookie List",
+      "path" : "sources\/easylist-cookie.txt",
+      "sha256" : "38e92c99161d6a4822386fd23c5ef11823be4a0b2a0899ccbf223d548f5ae8ea",
+      "title" : "Easylist Cookie List",
+      "url" : "https:\/\/secure.fanboy.co.nz\/fanboy-cookiemonster.txt"
+    }
+  ]
+}
